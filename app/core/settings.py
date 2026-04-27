@@ -2,7 +2,7 @@ from pydantic_settings import SettingsConfigDict, BaseSettings
 from pydantic import Field
 
 class Settings(BaseSettings):
-    model_config_dict = SettingsConfigDict(
+    model_config = SettingsConfigDict(
         env_file=".env",
         case_sensitive=False
     )
