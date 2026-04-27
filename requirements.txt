@@ -4,3 +4,5 @@ pydantic
 pydantic-settings
 asyncpg
 sqlalchemy
+pytest
+pytest-asyncio
