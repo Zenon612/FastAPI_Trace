@@ -3,5 +3,5 @@ from datetime import datetime
 
 class HealthSchema(BaseModel):
     status: str = Field(..., title="Статус")
-    time: datetime = Field(default=datetime.now())
+    time: datetime = Field(default_factory= lambda: datetime.now())
     message: str | None = Field(default=None)

@@ -6,3 +6,4 @@ asyncpg
 sqlalchemy
 pytest
 pytest-asyncio
+httpx
